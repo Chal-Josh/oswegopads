@@ -84,7 +84,7 @@
                     <div class="da-slide">
                         <h2>Beautiful Properties</h2>
                         <h4>just like home</h4>
-                        <p>The question we ask ourselves every day as we look at our homes is "would we want to live here?"... We pride ourselves on having the most aesthetically pleasing and well maintained college rentals in downtown Oswego.</p>
+                        <p>The question we ask ourselves every day as we look at our homes is... "would we want to live here?"... We pride ourselves on having the most aesthetically pleasing and well maintained college rentals in downtown Oswego.</p>
 						<a href="https://oswegopads.managebuilding.com/Resident/PublicPages/login.aspx" class="da-link button">Tenant Login</a>
                         <div class="da-img">
                             <%= image_tag("Slider02.png", width: '700')%>
@@ -160,11 +160,14 @@
             <div class="container">
                 <div class=" title">
                     <h1>Have You Seen our Homes?</h1>
-                    <p>We currently have 3 beautiful homes in our portfolio, and are always looking to add more.</p>
+                    <p>We currently have 6 beautiful homes in our portfolio, and are always looking to add more.</p>
                 </div>
                 <ul class="nav nav-pills">
                     <li class="filter" data-filter="all">
                         <a href="#noAction">All</a>
+                    </li>
+                    <li class="filter" data-filter="4bed">
+                        <a href="#noAction">4 Bedroom</a>
                     </li>
                     <li class="filter" data-filter="5bed">
                         <a href="#noAction">5 Bedroom</a>
@@ -177,7 +180,7 @@
                 <div id="single-project">
                     <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <%= image_tag("Portfolio01a.jpg")%>
+                            <%= image_tag("Portfolio01a.jpg", size: "360x240")%>
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -196,6 +199,8 @@
                                         <span>Price</span>$500/month, everything included</div>
                                 </div>
                                 <p>Lakeview, hardwood floors, open living room & dining rooms, spacious bedrooms, newly renovated bathrooms, new kitchen appliances.</p>
+								
+								<p>Rented for 2016/17 school year</p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +208,7 @@
                     <!-- Start details for portfolio project 2 -->
                     <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <%= image_tag("Portfolio02a.jpg")%>
+                            <%= image_tag("Portfolio02a.jpg", size: "360x240")%>
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -221,7 +226,11 @@
                                     <div>
                                         <span>Price</span>$500/month, everything included</div>
                                 </div>
-                                <p>Close to campus, two giant livingrooms, large eat-in kitchen, nice backyard, 2 off-street parking spots</p>
+                                <p>Close to campus, two giant livingrooms, large eat-in kitchen, nice backyard, 3 off-street parking spots</p>
+								
+								<p>Rent includes all utilities, WiFi, and bedroom/living room/kitchen furniture</p>
+								
+								<p>Available for 2016/17 school year</p>
                             </div>
                         </div>
                     </div>
@@ -229,7 +238,7 @@
                     <!-- Start details for portfolio project 3 -->
                     <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <%= image_tag("Portfolio03a.jpg")%>
+                            <%= image_tag("Portfolio03a.jpg", size: "360x240")%>
                         </div>
                         <div class="span6">
                             <div class="project-description">
@@ -243,19 +252,116 @@
                                     <div>
                                         <span>Location</span>92 Sheldon Street</div>
                                     <div>
-                                        <span>Size</span>6 Bedrooms, 2 Bathroom, 2,000 Sq Ft</div>
+                                        <span>Size</span>5 Bedrooms, 2 Bathroom, 1,600 Sq Ft</div>
                                     <div>
-                                        <span>Price</span>$550/month, everything included</div>
+                                        <span>Price</span>$525/month, everything included</div>
                                 </div>
-                                <p>Accross the street from  campus, new home, beautiful hardwood living room, large backyard, 3 off-street parking spots</p>
+                                <p>Accross the street from  campus, two kitchens, two living rooms, large backyard, 4 off-street parking spots</p>								
+								
+								<p>Rent includes all utilities, WiFi, and bedroom/living room/kitchen furniture</p>
+								
+								<p>Available for 2016/17 school year</p>
                             </div>
                         </div>
                     </div>
                     <!-- End details for portfolio project 3 -->
+                    <!-- Start details for portfolio project 4 -->
+                    <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <%= image_tag("Davinci-inside.jpg", size: "360x240")%>
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>DaVinci</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Location</span>148 West 5th Street</div>
+                                    <div>
+                                        <span>Size</span>4 Bedrooms, 3 Bathroom, 3,000 Sq Ft</div>
+                                    <div>
+                                        <span>Price</span>$600/month, everything included</div>
+                                </div>
+                                <p>This house is a beautiful victorian mansion near downtown with 4 bedrooms, 3 bathrooms, and 4 livings rooms.</p>
+								
+								
+								<p>Rent includes all utilities, WiFi, and the house is fully furnished</p>
+								
+								<p>Available for 2016/17 school year to individual masters students, or a group of up to 3 masters students </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 4 -->
+                    <!-- Start details for portfolio project 5 -->
+                    <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <%= image_tag("Elizabeth-inside.jpg", size: "360x240")%>
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Elizabeth</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Location</span>68 Liberty Street</div>
+                                    <div>
+                                        <span>Size</span>4 Bedrooms, 2 Bathrooms, 1,600 Sq Ft</div>
+                                    <div>
+                                        <span>Price</span>$500/month, everything included</div>
+                                </div>
+                                <p>A beautiful home with hardwood floors and a lot of charm!</p>
+								
+								
+								<p>Rent includes all utilities, WiFi, and bedroom/living room/kitchen furniture</p>
+								
+								<p>Available for 2016/17 school year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 5 -->
+                    <!-- Start details for portfolio project 6 -->
+                    <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <%= image_tag("Fitzgerald-inside.jpg", size: "360x240")%>
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Fitzgerald</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Location</span>59 Ontario Street</div>
+                                    <div>
+                                        <span>Size</span>4 Bedrooms, 1 Bathroom, 1,600 Sq Ft</div>
+                                    <div>
+                                        <span>Price</span>$500/month, everything included</div>
+                                </div>
+
+								
+								<p>Rent includes all utilities, WiFi, and bedroom/living room/kitchen furniture</p>
+								
+								<p>Available for 2016/17 school year</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 6 -->
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4 mix 5bed">
                             <div class="thumbnail">
-                            	<%= image_tag("Portfolio01.png")%>
+                            	<%= image_tag("Ansel-front-house.jpg", size: "360x240")%>
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -265,7 +371,7 @@
                         </li>
                         <li class="span4 mix 5bed">
                             <div class="thumbnail">
-                            	<%= image_tag("Portfolio02.png")%>
+                            	<%= image_tag("Beethoven-front-house.jpg", size: "360x240")%>
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -275,11 +381,41 @@
                         </li>
                         <li class="span4 mix 6bed">
                             <div class="thumbnail">
-                            	<%= image_tag("Portfolio03.jpg")%>
+                            	<%= image_tag("Copperfield-front-house.jpg", size: "360x240")%>
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
                                 <h3>Copperfield</h3>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix 4bed">
+                            <div class="thumbnail">
+                            	<%= image_tag("Davinci-front-house.jpg", size: "360x240")%>
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv3">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>DaVinci</h3>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix 4bed">
+                            <div class="thumbnail">
+                            	<%= image_tag("Elizabeth-front-house.jpg", size: "360x240")%>
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv4">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Elizabeth</h3>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix 4bed">
+                            <div class="thumbnail">
+                            	<%= image_tag("Fitz-front-house.jpg", size: "360x240")%>
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv5">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Fitzgerald</h3>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -339,8 +475,8 @@
                 <div class="row-fluid team">
                     <div class="span4 offset2" id="first-person">
                         <div class="thumbnail">
-                            <%= image_tag("Team1.png")%>
-                            <h3>Jackie, Property Manager</h3>
+                            <%= image_tag("jackie.jpg", size: "280x420")%>
+                            <h3>Jackie, Tenant Manager</h3>
                             <ul class="social">
                                 <li>
                                     <a href="https://www.facebook.com/jackie.m.katz">
@@ -354,15 +490,14 @@
                                 </li>
                             </ul>
                             <div class="mask">
-                                <h2>The Overprotective Mother</h2>
-                                <p>The sweetest most caring landlord west of the Oswego River, your mom away from home. She coordinates renting out the apartments, taking care of current tenants, and maintaining the homes on the day-to-day.</p>
+                                <h4>Jackie coordinates renting out the apartments, taking care of current tenants, and maintaining the homes on the day-to-day. She cares deeply about keeping tenants satisfied and maintaining beautifil homes.</h4>
                             </div>
                         </div>
                     </div>
                     <div class="span4" id="second-person">
                         <div class="thumbnail">
-                            <%= image_tag("Team2.png")%>
-                            <h3>Josh, Tenant Experience Manager</h3>
+                            <%= image_tag("josh.jpg", size: "290x420")%>
+                            <h3>Josh, Tenant Strategy</h3>
                             <ul class="social">
                                 <li>
                                     <a href="https://www.facebook.com/Joshua.R.Katz">
@@ -376,8 +511,7 @@
                                 </li>
                             </ul>
                             <div class="mask">
-                                <h2>The Favorite Uncle</h2>
-                                <p>With most rental companies you barely get one landlord who cares, with Oswego Pads you get two. Josh will stay in touch with you throughout the year to make sure you're comfortable and enjoying the home experience.</p>
+                                <h4>With most rental companies you barely get one landlord who cares, with Oswego Pads you get two. Josh spends his time in NYC thinking about how to improve the Oswego Pads tenant experience.</h4>
                             </div>
                         </div>
                     </div>
